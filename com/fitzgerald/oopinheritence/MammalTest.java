@@ -22,6 +22,23 @@ public class MammalTest {
 		gorilla1.displayEnergy();
 		gorilla1.climb();
 		gorilla1.displayEnergy();
+		
+		
+		Bat bat1 = new Bat("Bat, BitterBip", "Caverns", true, "EEeeeekkk!");
+		
+		System.out.println(bat1);
+		bat1.fly();
+		bat1.fly();
+		bat1.eatHumans();
+		bat1.eatHumans();
+		bat1.displayEnergy();
+		bat1.attackTown();
+		bat1.attackTown();
+		bat1.attackTown();
+		bat1.displayEnergy();
+		
+		
 	}
+	
 
 }
